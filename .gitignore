@@ -1,0 +1,10 @@
+
+target/classes/com/hajimei/mapreduce/HajimeiFlowBean.class
+*.MF
+*.class
+src/main/resources/log4j.properties
+target/classes/log4j.properties
+src/.DS_Store
+out/.DS_Store
+d:axis.log
+.DS_Store
