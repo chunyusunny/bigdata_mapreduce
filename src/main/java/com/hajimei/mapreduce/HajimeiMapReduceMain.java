@@ -20,6 +20,7 @@ public class HajimeiMapReduceMain {
         job.setMapOutputValueClass(HajimeiFlowBean.class);
         job.setOutputKeyClass(Text.class);
         job.setOutputValueClass(HajimeiFlowBean.class);
+        //job.setNumberReduceTasks(1);
 
         FileInputFormat.setInputPaths(job, new Path(args[0]));
         FileOutputFormat.setOutputPath(job, new Path(args[1]));
